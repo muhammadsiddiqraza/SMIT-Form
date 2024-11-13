@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student portal</title>
+    <link rel="stylesheet" href="./portal.css">
+    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'>
+</head>
+<body>
+    <div id="main">
+        <center>
+            <img src="../images/logo-OpazD70S.png" height="100">
+            <p id="firstp">Student Portal</p>
+            <a href="./portal.html"><button id="first-btn">LOGIN</button></a>
+            <a href="#"><button id="second-btn">CREATE A PASSWORD</button></a>
+            <br>
+            <input class="input" id="first" type="number" placeholder="CNIC *">
+            <p id="secondp" style="color: rgba(0, 0, 0, 0.4);">Kindly provide the CNIC number used during SMIT course registration.</p>
+            <fieldset>
+                <legend for="">DOB *</legend>
+                <input id="dob" type="date" placeholder="">
+                <p id="last-p" style="color: rgba(0, 0, 0, 0.4);">Kindly provide the DOB used during SMIT course registration.</p>
+            </fieldset>
+            <br>
+            <input class="input" id="second" type="password" placeholder="Password *">
+            <br>
+            <button id="last-btn">LOGIN</button>
+        </center>
+    </div>
+
+    <style>
+        #dob{
+            /* position: absolute;
+            left: 570px; */
+            height: 100%;
+            width: 100%;
+            border: none;
+            color: rgba(0, 0, 0, 0.4);
+        }
+
+        #last-p{
+            margin-top: 10px;
+            position: absolute;
+            left: 570px;
+        }
+
+        fieldset{
+            height: 55px;
+            width: 550px;
+            margin-left: 80px;
+            border: 1px solid rgba(0, 0, 0, 0.4);
+            border-radius: 5px;
+            padding-left: 10px;
+            margin-top: 30px;
+            color: rgba(0, 0, 0, 0.4);
+        }
+
+        #first-btn{
+            height: 45px;
+            width: 226px;
+            color: #0000008C;
+            background-color: #f7f7f7;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #second-btn{
+            height: 45px;
+            width: 226px;
+            border-radius: 5px;
+            color: #285192;
+            background-color: #E3EBF7;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</body>
+</html>
